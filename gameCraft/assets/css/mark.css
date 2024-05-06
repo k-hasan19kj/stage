@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#connect-four {
+    display: grid;
+    grid-template-columns: repeat(7, 80px);
+    gap: 5px;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Rode muntjes */
+.cell.red {
+    background-color: #99cb38 !important;
+}
+
+/* Gele muntjes */
+.cell.yellow {
+    background-color: #44c1a3 !important;
+}
+
+/* Toegevoegde stijlen voor animatie */
+.falling {
+    animation: fallAnimation 0.5s ease-out;
+}
+
+@keyframes fallAnimation {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+

@@ -1,0 +1,71 @@
+Hall of Fame
+
+	- Charles Babbaga | 26 december, 1791
+	- Charles Babbage heeft ontworpen en toezicht gehouden op de constructie van een onafgewerkt prototype Difference Engine, een vroege rekenmachine die hij de analytische machine noemde, die commando's laadt met ponskaarten van Jacquard-weefgetouwen.
+------
+	- Ada Lovelace | 10 december, 1815
+	- Ada Lovelace werkte samen met Charles Babbage om een taal van logische en wiskundige expressie te ontwikkelen voor het eerste computerapparaat.
+------
+	- Grace Hopper | 9 december, 1906
+	- Grace Hopper was een Amerikaans wiskundige, informaticus, natuurkundige en officier van de Amerikaanse Marine.
+	- Zij heeft onder andere de eerste programma's voor de Mark 1 Calculator en de eerste echte compiler voor een programeertaal op haar naam staan.
+------
+	- Gordon Moore | 3 januari, 1929
+	- Gordon Moore is een Amerikaans ondernemer en medeoprichter van Intel.
+	- Hij formuleerde de Wet van Moore.
+	- Hij is een van de "Traitorous Eight", de groep die in 1957 Fairchild Semiconductor oprichtte.
+	- In 2008 ontving hij de prestigieuze IEEE Medal of Honor voor zijn baanbrekende bijdragen aan de elektronica.
+------
+	- Ed Roberts | 13 september, 1941
+	- Ed Roberts was een Amerikaans ingenieur, ondernemer en arts die in 1970 het bedrijf Micro Instrumentation and Telemetry Systems (MITS) oprichtte.
+	- Hij verkocht daarmee bouwdozen voor hobbyisten van modelraketten.
+	- Hij staat bekend als "de vader van de personal computer".
+------
+	- Steve Wozniak | 11 augustus, 1950
+	- Steve Wozniak is een Amerikaans ingenieur. Hij richtte op 3 januari 1977 samen met Steve Jobs en Ronald Wayne het computerbedrijf Apple op. Zijn bijnaam is Woz.
+------ 
+	- Steve Jobs | 24 februari, 1955
+	- Steve Jobs was de medeoprichter en topman van Apple en behoorde tot de raad van bestuur van Pixar Animation Studios. Na de overname van Pixar door Disney werd Jobs lid van de raad van bestuur van het bedrijf. Hoewel hij een symbolisch salaris van één dollar per jaar verdiende, was hij met aandeleninkomsten van 646,6 miljoen dollars de meestverdienende directeur van 2006 in de VS. Jobs wordt beschouwd als een pionier van de computerindustrie. Nadat hij bij Xerox op het Palo Alto Research Center (PARC) een demonstratie zag van de grafische gebruikersomgeving met vensters en muis, nam hij deze interface op in de Apple Lisa, die erg duur was en slecht verkocht en vrij snel opgevolgd werd door de Apple Macintosh. Hij was verder ook de drijvende kracht achter de ontwikkeling van OS X.
+------
+	- Bill Gates | 28 october, 1955
+	- William Henry (Bill) Gates III is een Amerikaans ondernemer en filantroop.
+Gates is vooral bekend geworden als boegbeeld en medeoprichter van het bedrijf Microsoft.
+------ 
+	- Kevin Mitnick | 6 augustus, 1963
+	- Keven Mitnick is een van de bekendste veroordeelde hackers.
+Vanaf zijn 12e was hij al begonnen met het omzeilen van systemen.
+------ 
+	- Rich Skrenta | 6 juni, 1967
+	- Rich Skrenta is een computerprogrammeur en ondernemer uit Silicon Valley die de webzoekmachine Blekko heeft uigevonden.
+------
+	- Linus Torvalds | 28 december, 1969
+	- Linus Torvalds is verantwoordelijk voor het ontstaan van de Linuxkernel en bracht, door de code te verspreiden onder de General Public License, de vrijesoftwarebeweging voor het eerst onder de aandacht van een groot publiek.
+------
+	- Larry Page | 26 maart, 1973
+	- Larry Page is een Amerikaanse computerwetenschapper en internetondernemer die mede-oprichter is van Google inc., een bedrijf dat startte met een zoekmachine op internet.
+Met een vermogen van 48,8 miljard dollar (2018 Forbes) behoort hij tot de 15 rijkste mensen ter wereld.
+------
+	- Sergey Brin | 21 augustus, 1973
+	- Sergey Brin is een in Rusland geboren Amerikaanse computerwetenschapper en internetondernemer die samen met Lary Page Google heeft opgericht.
+------
+	- Chad Hurley | 24 januari, 1977
+	- Chad Hurley werkte eerst voor Ebay en Paypal.
+Samen met Steve Chen en Jawed Karim startte hij in 2005 de site Youtube.
+------
+	- Jawed Karim | 28 oktober, 1979
+	- Jawed Karim is een internetondernemer van Bengalees-Duitse oorsprong en mede-opdrichter van Youtube, Hij was tevens de eerste persoon die een video op de site uploadde.
+------
+	- Mark Zuckerberg | 14 mei, 1984
+	- Tijdens Mark Zuckerberg's studie aan de Harvard-universiteit richtte hij samen met Eduardo Saverin, Dustin Moskovitz, Sean Parker en Chris hughes in 2004 de site Facebook op.
+
+
+
+
+
+
+
+
+
+
+
+

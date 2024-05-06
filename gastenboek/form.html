@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6197070fbb.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="uploads/logo.ico">
+    <title>Guestbook</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Welkom</h2>
+            <a href="index.php">
+                <h2>Berichten<i class="fa-solid fa-eye"></i><i class="fa-solid fa-eye"></i></h2>
+            </a>
+        </div>
+        <form action="process.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" maxlength="20" required><br><br>
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Bericht:</label>
+            <textarea type="message" id="message" name="message" rows="4" maxlength="250" required></textarea> <br><br>
+            <label for="image">Foto uploaden:</label>
+            <input type="file" id="image" name="image">
+            <button type="submit" name="submit">Indienen</button>
+        </form>
+    </div>
+
+    <script>
+
+
+document
+            .querySelector("#name")
+            .addEventListener("focus", function (event) {
+                // event op te vangen
+                const ele = event.target;
+                ele.style.backgroundColor = "white";
+                ele.style.boxShadow = " 0 0 10px #00ffff ";
+                if (ele.value == "NAME IS VERPLICHT!") {
+                    ele.value = "";
+                    ele.style.border = "2.5px solid #00ffff";
+                    ele.style.color = "black";
+                }
+            });
+
+        document.querySelector("#name").addEventListener("blur", function (event) {
+            // event op te vangen
+            let ele = event.target;
+            if (ele.value.length == 0) {
+                ele.value = "name is verplicht!".toUpperCase();
+                ele.style.border = "red 3px solid";
+                ele.style.color = "red";
+                
+            }
+        });
+
+               document
+            .querySelector("#email")
+            .addEventListener("focus", function (event) {
+                // event op te vangen
+                const ele = event.target;
+                ele.style.backgroundColor = "white";
+                ele.style.boxShadow = " 0 0 10px #00ffff ";
+                if (ele.value == "EMAIL IS VERPLICHT!") {
+                    ele.value = "";
+                    ele.style.border = "2.5px solid #00ffff";
+                    ele.style.color = "black";
+                }
+            });
+
+        document.querySelector("#email").addEventListener("blur", function (event) {
+            // event op te vangen
+            let ele = event.target;
+            if (ele.value.length == 0) {
+                ele.value = "email is verplicht!".toUpperCase();
+                ele.style.border = "red 3px solid";
+                ele.style.color = "red";
+                
+            }
+        });
+
+       document
+            .querySelector("#message")
+            .addEventListener("focus", function (event) {
+                // event op te vangen
+                const ele = event.target;
+                ele.style.backgroundColor = "white";
+                ele.style.boxShadow = " 0 0 10px #00ffff ";
+                if (ele.value == "Schrijf iets...") {
+                    ele.value = "";
+                }
+            });
+
+        document.querySelector("#message").addEventListener("blur", function (event) {
+            // event op te vangen
+            let ele = event.target;
+            if (ele.value.length == 0) {
+                ele.value = "Schrijf iets...";
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamecraft | Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body style="overflow: hidden;">
+    <div id="overlay"></div>
+    <header>
+        <div><p>CONTACT</p></div>
+        <a onclick="toggleNav()">Menu</a>
+        <div id="menuBar" class="menu-bar"></div>
+    </header>
+    <section class="main">
+        <div class="content">
+            <div class="flex">
+                <div class="forum">
+                    <form id="contactforum">
+                        <h3>Klanten service 10:00 tot 18:00</h3>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <textarea id="bericht" rows="7" placeholder="Hoe kunnen wij helpen?" required></textarea>
+                        <button type="submit" onclick="clearForm()">Verstuur</button>
+                    </form>
+                </div>
+                <div>
+                    <p class="flex"><i class="fa-solid fa-phone"></i> +31 6 12345678</p>
+                    <p class="flex"><i class="fa-solid fa-location-dot"></i> Forza RD. 123</p>
+                    <p class="flex"><i class="fa-solid fa-envelope"></i> info@forza.rocmn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Copyright 2023 © Gamecraft</h2>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

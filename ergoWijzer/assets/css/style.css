@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Trirong", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5em;
+}
+
+header div {
+    background-color: aqua;
+    width: 25%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header nav {
+    width: 50%;
+    margin-top: 1.5em;
+    background-color: white;
+    height: 3.5em;
+}
+
+header img{
+    height: 100%;
+    margin: auto;
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* drop nav */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 190px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: -15px;
+}
+
+.dropdown-content a:hover {background-color: aqua}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #36b6ab; /* !veranderer de kleur */
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: -5em;
+    background: url('../images/banner.png') no-repeat bottom center/cover;
+    margin-bottom: 5em;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* our products */
+.our-products {
+    grid-area: our-products;
+}
+
+.our-products h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 8%;
+}
+
+.producten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    width: 120px;
+    height: 135px;
+    /* border: 5px solid aqua; */ 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+.box:hover {
+    background-color: aqua;
+    color: white;
+    transition: 0.5s;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.imagesProducten {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-radius: 3px;   
+}
+
+.box i{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+
+/* slideshow */
+.containerfoto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+ 
+}
+.slideshow-container1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 8%;
+}
+.imgslide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 260px;
+    border-radius: 10px;
+    border: black 2px solid;
+  }
+  
+
+  /* Next & previous buttons */
+  .prev1,
+  .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 150%;
+    width: auto;
+    padding: 30px;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .prev1 {
+    width: auto;
+    margin-left: -610px;
+    border-radius: 3px 0 0 3px;
+  }
+  .next1 {
+    right: 130px;
+    margin-right: 14px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .doty1{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot1:hover {
+    background-color: aquamarine;
+  }
+  
+  /* Fading animation */
+  .fade1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+/* main section */
+
+main {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container h2 span {
+    color: #3640ff;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 1.2;   
+}
+
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* section */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* khalil */
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2%;
+}
+
+.slideshow-container{
+    display: flex;
+    flex-direction: column;
+}
+.mySlides img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 260px;
+    aspect-ratio: 1.77/1;
+    margin-left: -50px;
+    border-radius: 3px;
+    object-fit: fill;
+    border: black 2px solid;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 152%;
+    width: auto;
+    padding: 16px;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .prev {
+    width: auto;
+    margin-left: -110px;
+    border-radius: 3px 0 0 3px;
+  }
+  .next {
+    right: 130px;
+    margin-right: 14px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .doty{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: black;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+ /* jesse */
+.jessediv h1{
+    font-size: 43px;
+    font-weight: bold;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; 
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.jessediv p{
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center; 
+}
+span{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.jessevideo{
+    margin: 0 auto;
+    text-align: center;  
+}
+
+/* moo */
+
+
+.container>h1{
+    font-size: 18px;
+    font-weight: bold;
+}

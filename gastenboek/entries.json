@@ -1,0 +1,58 @@
+[
+    {
+        "name": "khalil",
+        "email": "577325@edu.rocmn.nl",
+        "message": "dit is de eerste bericht ooit!!.",
+        "image": "download.jpg",
+        "date": "10-03-2024 21:51"
+    },
+    {
+        "name": "ahmad",
+        "email": "ahmadaltashi@gmail.com",
+        "message": "goed gedaan ya hoby.",
+        "image": null,
+        "date": "11-03-2024 2:51"
+    },
+    {
+        "name": "harm",
+        "email": "info@harmfennis.nl",
+        "message": "deze bericht is gestuurd door iemand die heel goed can coderen.",
+        "image": null,
+        "date": "11-03-2024 3:04"
+    },
+    {
+        "name": "jesse",
+        "email": "jonesvandevelde@gmail.com",
+        "message": "mooi gastenboek.",
+        "image": null,
+        "date": "11-03-2024 09:22"
+    },
+    {
+        "name": "Harm",
+        "email": "info@harmfennis.nl",
+        "message": "Mooi gasten boek hoor! ziet er goed uit, zijn verbeter punten maar over het algemeen zeer goed.",
+        "image": "81028218.png",
+        "date": "11-03-2024 10:54"
+    },
+    {
+        "name": "Mark Datema",
+        "email": "588492@edu.rocmn.nl",
+        "message": "Geen zin in vandaag.",
+        "image": "oud gebouw 1.jpg",
+        "date": "11-03-2024 11:10"
+    },
+    {
+        "name": "khalil ",
+        "email": "k.hasan2201@gmail.com",
+        "message": "@Mark \r\nkom dan morgen.",
+        "image": "WhatsApp Image 2024-02-25 at 17.45.17_b2f963af.jpg",
+        "date": "11-03-2024 13:10"
+    },
+    {
+        "name": "Mark Datema",
+        "email": "588492@edu.rocmn.nl",
+        "message": "@Khalil Morgen heb ik er ook geen zin in.",
+        "image": "tygo.jpg",
+        "date": "11-03-2024 14:10"
+    }
+]

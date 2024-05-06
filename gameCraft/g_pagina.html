@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamecraft | Gamecraft</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://2048.harmfennis.nl/gamecraft/style.css">
+    <script src="https://2048.harmfennis.nl/script.js"></script>
+</head>
+<body>
+    <div id="overlay"></div>
+    <header>
+        <div><p>2048 Game</p></div>
+        <a onclick="toggleNav()">Menu</a>
+        <div id="menuBar" class="menu-bar"></div>
+    </header>
+    <section class="banner1">
+        <div class="inner1">
+            <h1>Gamecraft</h1>
+        </div>
+        </div>
+    </section>
+    <section class="main none">
+        <div class="content1">
+            <div class="wrapper">
+                <div class="header">
+                    <div class="title">
+                        <h1>2048</h1>
+                    </div>
+                    <div class="buttons">
+                        <button id="6x6">6 x 6</button>
+                        <button id="4x4">4 x 4</button>
+                        <button id="new-game">Nieuw spel</button>
+                    </div>
+                </div>
+                <div class="score-container">
+                    <div class="score">
+                        <span id="score">0</span>
+                    </div>
+                    <div class="score">
+                        <span id="highscore">0</span>
+                    </div>
+                </div>
+                <div id="game-container">
+                    <div id="game-board"></div>
+                </div>
+                <div id="game-over-overlay">
+                    <div id="game-over-message">Game Over! <br> Druk op R om opnieuw te beginnen of druk op de
+                        knop<br><button id="restart-game">Begin opnieuw</button></div>
+                </div>
+        
+                <table class="high">
+                    <thead>
+                        <tr>
+                            <th>Naam</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Copyright 2023 © Gamecraft</h2>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
